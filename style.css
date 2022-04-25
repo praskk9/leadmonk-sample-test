@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: #00000000;
 }
 
 /**
@@ -76,7 +76,7 @@ q:after {
 }
 
 blockquote {
-  /*background-color: #F8F8F8;*/
+  background-color: #F8F8F8;
   border-left: 2px solid #AFC0D2;
   margin: 1.6em 10%;
   padding: .75em 1em;
@@ -97,13 +97,13 @@ html {
   background-size:cover;
 }
 body {
-  max-width:800px;
+  max-width:1000px;
   margin:25px auto;
 }
 header, #content, footer { 
-  background: rgba(0,0,0,.8); 
+  background: rgba(255,255,255,.8); 
   padding:25px;
-  color:#FFFFFF; 
+  color:#00000000; 
 }
 
 /* Menu Links */
@@ -122,10 +122,10 @@ ul.main-menu li a {
   color:#cfd2da;
 }
 ul.main-menu li a:hover {
-  color:#FFFFFF;
+  color:#00000000;
 }
 ul.main-menu li a.active {
-  color:#FFFFFF;
+  color:#00000000;
   border-bottom-color:#EF6D3D;
 }
 
